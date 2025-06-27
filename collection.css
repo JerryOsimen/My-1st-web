@@ -1,5 +1,7 @@
 h2{text-align: center; font-size:200%;background-color: rgb(44, 44, 189);}
 img{margin-top: 2%; }
 body{background-color:rgb(196, 125, 18); max-width: 90%;padding-left: 5%; margin-bottom: 3%; text-align: justify; font-size: 130%;}
-span{font-size:150%; color: rgb(48, 31, 148);}button{ font-size: 150%; margin-top: 5%; margin-left: 20%; background-color: blueviolet;}
-    
+span{font-size:150%; color: rgb(48, 31, 148);}
+button{ font-size: 150%; margin-top: 5%; margin-left: 20%; background-color: blueviolet;}
+img{border:4px solid rgb(48, 31, 148); border-radius: 5%;}
+ul{list-style: square;}

@@ -6,7 +6,7 @@ p{margin-left: 4%; text-align: justify;}
 #go{font-size: 150%;border:3px solid black; background-color:rgb(124, 6, 124) ; color:black; text-align: center;margin-left: 10%; margin-right: 10%;}
 ol{margin-left: 3%; font-size: 130%;list-style-type: decimal;}
 button{font-size: 120%; background-color: rgb(6, 168, 19); width: 100%; 
-    min-width: 20px; max-width: 200px; margin: 2% 8%; text-align: center;}
+    min-width: 40px; max-width: 200px; margin: 2% 6%; text-align: center;}
 
 ul{list-style:none; padding:0;}
 ul li{background-image: url('Images/COLLECTIONS.jpg');

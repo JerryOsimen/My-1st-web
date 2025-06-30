@@ -12,4 +12,4 @@ ul li{background-image: url('Images/COLLECTIONS.jpg');
  background-repeat: no-repeat; background-position: 0 10px; 
 background-size: 18px 18px; padding-left: 24px; margin-bottom: 8px;}
 .flex{display: flex; justify-content: space-evenly; font-size: 120%;}
-@media(max-width:600px){.flexbox{font-size: 110%; background-color: rgb(75, 112, 10); padding: 0 16px; box-sizing: border-box;}}
+@media(max-width:600px){.flexbox{font-size: 110%; background-color: rgb(75, 112, 10); padding: 0 16px; box-sizing: border-box; flex-shrink:1 ;}}

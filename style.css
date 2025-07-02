@@ -15,4 +15,4 @@ background-size: 18px 18px; padding-left: 24px; margin-bottom: 8px;}
 @media(max-width:600px){body{background-color:rgb(96, 139, 21);width:100%  }}
 @media(max-width:600px){h1{font-size: clamp(1rem, 6vw, 2.5rem); width:90%}}
 @media(max-width:600px){h2{ white-space: nowrap; display: flex; justify-content:center;}}
-@media(max-width:600px){}
+@media(max-width:600px){.flex{justify-items: center;}}

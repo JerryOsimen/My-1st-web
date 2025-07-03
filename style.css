@@ -1,18 +1,21 @@
-.container{display:flex; flex-direction: column; padding:clamp(1rem, 5vw, 3rem); padding-left: 10%; padding-top: 0%; }
+html {box-sizing: border-box;}
+*,*::before, *::after{box-sizing: inherit;}
 img{width:90%; max-width: 500px; min-width:150px; height:auto; display:block;margin:0 auto;}  
-body{margin-bottom:3%;background-color: #d88e04; font-size:clamp(1.2rem, 2vw, 1.5rem); line-height:1.6; 
-    width: 90%; max-width: 100%;}
-h1{background-color: rgb(4, 49, 172); border: 3px solid black; text-align: center;}
+body{background-color: #d88e04; max-width: 100%;}
+.container{line-height:1.6; font-size:clamp(1.2rem, 2vw, 1.5rem); margin-bottom:3%; width:90%;
+      margin: 0 auto; padding:0 5vw}    
+h1{background-color: rgb(4, 49, 172); border: 3px solid black; text-align: center; 
+    font-size: clamp(24px,6vw,48px);}
 p{margin-left: 4%; text-align: justify;}
-h2{background-color: rgb(71, 5, 133); border:3px solid; font-size: clamp(16px, 5vw, 32px); text-align: center; }
+h2{background-color: rgb(71, 5, 133); border:3px solid; font-size: clamp(24px,6vw,48px); 
+    text-align: center;}
 ol{margin-left: 3%; font-size: 130%;list-style-type: decimal;}
-button{font-size: 120%; background-color: rgb(6, 168, 19);text-align: center; margin:0% 19% 0% 3%; }
+button{border: 3px solid; border-radius: 15%; font-size: clamp(1.5rem, 2.5vw, 2rem);}
+#col{background-color:rgb(97, 34, 156) ;}
+#about{background-color:rgb(56, 147, 226) ;}
+#contacts{background-color:rgb(18, 170, 13)}
 ul{list-style:none; padding:0;}
 ul li{background-image: url('Images/COLLECTIONS.jpg');
  background-repeat: no-repeat; background-position: 0 10px; 
 background-size: 18px 18px; padding-left: 24px; margin-bottom: 8px;}
-.flex{display: flex; justify-content: space-evenly; font-size: 120%}
-@media(max-width:600px){body{background-color:rgb(96, 139, 21);width:100%  }}
-@media(max-width:600px){h1{font-size: clamp(1rem, 6vw, 2.5rem); width:90%}}
-@media(max-width:600px){h2{ white-space: nowrap; display: flex; justify-content:center;}}
-@media(max-width:600px){.flex{justify-items: center;}}
+.flexbox{display: flex; justify-content: space-evenly; margin-bottom: 4%;}

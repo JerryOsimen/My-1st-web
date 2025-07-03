@@ -1,2 +1,4 @@
+html {box-sizing: border-box;}
+*,*::before, *::after{box-sizing: inherit;}
 body{background-color:darkolivegreen;}
 img{border: 3px solid rgb(9, 23, 224); margin-left: 2%;border-radius: 5%;}

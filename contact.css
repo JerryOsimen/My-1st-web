@@ -1,13 +1,13 @@
 html {box-sizing: border-box;}
 *,*::before, *::after{box-sizing: inherit;}
-body{background-color:blanchedalmond; color: rgb(16, 156, 16); max-width: 100%;}
+body{background-color:#eba63e; color: rgb(16, 156, 16); max-width: 100%;}
 .container{width:80%; margin: 0 auto; text-align: justify;} 
 .img{display:flex; justify-content: center; align-items:center ;}
-h1{color: rgb(255, 0, 34);background-color:rgb(21, 18, 214);
-   text-align: center;  border: 3px solid rgb(226, 7, 7);}
-.mid{ font-size:clamp(25px, 2.5vw, 30px);}
-.con{text-align: center; color:black; font-size:130%; text-decoration:
+h1{color:rgb(238, 5, 5);background-color:rgb(21, 18, 214);
+   text-align: center;  border: 3px solid rgb(8, 2, 2); font-size: clamp(1.5rem, 3.5vw, 2rem);}
+.mid{ font-size:clamp(20px, 2.5vw, 1.5em);}
+.con{text-align: center; color:black; font-size:clamp(1.5rem, 3vw, 2.5rem); text-decoration:
     rgb(19, 19, 155) underline;}
 button{border:3px solid black; font-size: clamp(20px, 2.5vw, 25px); text-align: center;
-   background-color:rgb(21, 18, 214); color:lightred;}
- 
+   background-color:rgb(21, 18, 214); color:rgb(238, 5, 5); margin-bottom: 7%; font-weight: 550;}
+.butt{display:flex; flex-direction: row; justify-content: space-evenly;}  

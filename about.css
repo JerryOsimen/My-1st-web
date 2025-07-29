@@ -1,16 +1,19 @@
 html {box-sizing: border-box;}
 *,*::before, *::after{box-sizing: inherit;}
-.container{width:90%; margin:0 auto}
-h1{color: rgb(251, 255, 0); text-align: center;border:3px solid black; font-size:250%; background-color:rgb(40, 40, 219);}
-body{background-color: rgb(56, 147, 226);font-size: 120%; margin-bottom: 5%; max-width: 100%;}
-h2{ color:rgb(8, 9, 85); text-align: center; font-size: 250%;}
-#to{padding-left:37%; font-size: 170%; color: black;}     
-.ball{color:rgb(4, 107, 4); font-size: 170%; max-width:95%; padding-left: 4%; padding-right: 4%;}
-h3{font-size: 200%; text-align: center; border: 3px solid black; background-color:rgb(28, 28, 223) ; color:rgb(251, 255, 0); }
-#u{text-decoration: dashed underline rgb(101, 23, 173)}
-button{text-align: center; border: 3px solid; font-size: clamp(1rem, 2.5vw, 1.2rem); padding: clamp(0.5rem, 1.5vw, 1rem) 
-    clamp(0.5rem, 2vw, 1rem); font-weight: bolder;}
+.container{width:85%; margin:0 auto; font-size:clamp(80%, 2vw, 90%); 
+    margin-bottom: 5%; text-align: justify; padding:0 1rem;}
+h1{color: rgb(251, 255, 0); text-align: center; border:3px solid black;
+    background-color:rgb(40, 40, 219);}
+body{background-color: rgb(56, 147, 226); max-width: 100%}
+h2{ color:rgb(8, 9, 85); text-align: center; font-size:200% ;}
+#to{font-size: 150%; color: black; text-decoration:black underline; display:block;
+text-align: center;}     
+.ball{color:rgb(4, 107, 4); font-size: 150%;}
+h3{font-size:clamp(2.2em,2.5vw,3em); text-align: center; border: 3px solid black; background-color:rgb(28, 28, 223) ;
+    color:rgb(251, 255, 0); }
+#u{text-decoration: dashed underline rgb(15, 15, 2); color:rgb(40, 40, 219); font-weight: 550;}
+button{border:3px solid; font-weight: 550; text-align: center; font-size: clamp(1rem, 2vw, 1.5rem);}
 .flex{display: flex; flex-direction: row; justify-content: space-evenly;}
 #home{background-color: #a1721b;} 
-#col{background-color: rgb(31, 31, 158);}
-#contacts{background-color:rgb(14, 122, 20);}  
+#col{background-color:rgb(40, 40, 219) ;}
+#contacts{background-color:rgb(14, 122, 20);} 

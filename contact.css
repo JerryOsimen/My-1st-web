@@ -12,5 +12,5 @@ button{border:3px solid black; font-size: clamp(20px, 2.5vw, 25px); text-align: 
    background-color:rgb(21, 18, 214); color:rgb(238, 5, 5); margin-bottom: 7%; font-weight: 550;}
 .butt{display:flex; flex-direction: row; justify-content: space-evenly;}  
 @media(max-width:480px){.butt{margin-top: 10%;} #col{margin-left:5%;} #about{margin-left:5%;} button{border-radius: 20%;}
-.container{width:100%} #np{margin-left: 5%; text-decoration:blue underline; font-size:110%} #zs{margin-left: 5%;
+.container{width:110%} #np{margin-left: 5%; text-decoration:blue underline; font-size:110%} #zs{margin-left: 5%;
 text-decoration:blue underline; font-size:110%;}}

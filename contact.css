@@ -4,13 +4,13 @@ body{background-color:#eba63e; color: rgb(16, 156, 16); max-width: 100%;}
 .container{width:80%; margin: 0 auto; text-align: justify;} 
 .img{display:flex; justify-content: center; align-items:center ;}
 h1{color:rgb(238, 5, 5);background-color:rgb(21, 18, 214);
-   text-align: center;  border: 3px solid rgb(8, 2, 2); font-size: clamp(1.5rem, 3.5vw, 2rem);}
+   text-align: center;  border: 3px solid rgb(8, 2, 2); font-size: clamp(1.5rem, 3vw, 1.8rem);}
 .mid{ font-size:clamp(20px, 2.5vw, 1.5em);}
 .con{text-align: center; color:rgb(11, 10, 10); font-size:clamp(1.5rem, 3vw, 2.5rem); text-decoration:
     rgb(19, 19, 155) underline;}
-button{border:3px solid black; font-size: clamp(20px, 2.5vw, 25px); text-align: center;
+button{border:3px solid black; font-size: clamp(18px, 2vw, 23px); text-align: center;
    background-color:rgb(21, 18, 214); color:rgb(238, 5, 5); margin-bottom: 7%; font-weight: 550;}
 .butt{display:flex; flex-direction: row; justify-content: space-evenly;}  
 @media(max-width:480px){.butt{margin-top: 10%;} #col{margin-left:5%;} #about{margin-left:5%;} button{border-radius: 20%;}
-.container{width:110%} #np{margin-left: 5%; text-decoration:blue underline; font-size:110%} #zs{margin-left: 5%;
-text-decoration:blue underline; font-size:110%;}}
+.container{width:100%;} #np{margin-left: 5%; text-decoration:blue underline; font-size:110%} #zs{margin-left: 5%;
+text-decoration:blue underline; font-size:110%;} .mid{font-size:18px;}}

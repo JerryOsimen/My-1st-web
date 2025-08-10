@@ -16,4 +16,6 @@ button{border:3px solid; font-weight: 550; text-align: center; font-size: clamp(
 .flex{display: flex; flex-direction: row; justify-content: space-evenly;}
 #home{background-color: #a1721b;} 
 #col{background-color:rgb(40, 40, 219) ;}
-#contacts{background-color:rgb(14, 122, 20);} 
+#contacts{background-color:rgb(14, 122, 20);}
+@media(max-width:480px){.container{width: 100%;}#u{color:rgb(28, 28, 223); font-weight:650;}.flex{margin-bottom: 10%;}
+#col{margin-left: 5%;}#contacts{margin-left: 15%;} button{border-radius: 20%; font-weight: 800;}} 

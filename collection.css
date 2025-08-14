@@ -19,5 +19,5 @@ button{border:3px solid; font-weight: 550; text-align: center; font-size: clamp(
 ul{list-style: square;}
 #purple{font-size:clamp(110%, 3vw, 140%); color:rgb(48, 31, 148); text-align: center;}
 @media(max-width:480px){.flex{margin-top:12%;} #about{margin-left: 18%;} #contacts{margin-left: 28%;}
-.container{width:100%}#ni{font-size:180% ;} #zozo{font-size: 180%;}
+.container{width:100%}#ni{font-size:200% ;} #zozo{font-size: 200%;}
 }

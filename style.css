@@ -11,8 +11,8 @@ h2{background-color: rgb(71, 5, 133); border:3px solid black; text-align: center
 white-space: nowrap; font-size: clamp(100%, 3vw, 110%); color:beige}
 ol{margin-left: 3%; list-style-type: decimal;}
 #lot{margin-left: 3%; font-size:clamp(100%, 2vw, 120%)}
-button{border: 3px solid; border-radius: 15%; font-size: clamp(1rem, 2.5vw, 3rem);
-font-weight: 550;}
+button{border: 3px solid black; border-radius: 15%; font-size: clamp(1rem, 2.5vw, 3rem);
+font-weight: 500;color:white}
 #col{background-color:rgb(97, 34, 156) ;}
 #about{background-color:rgb(56, 147, 226) ;}
 #contacts{background-color:rgb(18, 170, 13)}
